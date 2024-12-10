@@ -1,0 +1,71 @@
+---
+title: |
+  Money as an Institution of International Capitalism
+subtitle: |
+  Revisiting Commons and Dillard on money as an institution in the current times 
+type: Paper Proposal
+author:
+  - name: Oleksandr Valchyshen
+    affil: a
+    email: avpfc@umkc.edu
+affiliation:
+  - num: a
+    address: |
+      University of Missouri-Kansas City, 5000 Holmes St., Kansas City, MO 64110
+bibliography: ref.bib
+biblio-style: apalike
+#appendix: appendix.tex
+abstract: |
+  In a modern-day environment, the everlasting societal quest for sustainability arrives at some point at such observable phenomena as 'polycrisis' [@tooze2022,@mckenzie2022] and 'systemic chaos' [@galanis2024]. Institutional economics guides how to decipher such complexity. A prior condition is defined by [@dillard1987] as analyzing "the kind of world in which we actually live." Then, one needs to put money at "the center of economic theory, instead of an afterthought" in order to obtain "the correct picture" [@commons1923]. All these points are key. This paper proposes an update to the seminal work @dillard1987 on money as an institution by introducing the international dimension. It builds upon key insights by @commons1936 on a single transaction, private property, and value. It also connects the Commons' way of thinking with the conceptualization of payment by @innes1913. As an intermediary conclusion, the paper argues to retire traditional and extremely abstract metaphors of motion the economists and scientists of other fields rely upon while explaining international monetary matters (such as in @clark2005, @koepke2019, @kforbes2021, @swartz2023). Instead, an alternative conceptualization is required and proposed to have "the correct picture" that describes an actual transaction. The ultimate point of this paper is to connect back to @commons1925's idea of "reasonable stabilization of capitalism," which nowadays has an international spread out, crossing continents, time zones, and jurisdictions.
+jelcode: |
+  B52; E12; E42; F21; F32
+keywords: |
+  Money as an institution; international transaction; international payment
+header-includes: |
+  \usepackage{bookmark}
+  \usepackage{hyperref}
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage{endnotes}
+  \usepackage{geometry}
+  \usepackage{booktabs}
+  \usepackage{tabularx}
+  \usepackage{textcomp}
+  \usepackage{eurosym}
+  \usepackage{setspace}\doublespacing
+  \expandafter\def\expandafter\quote    
+    \expandafter{\quote\small\singlespacing}
+  \def\tightlist{}
+output: rticles::tf_article
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
+```{=tex}
+\let\footnote=\endnote % notes are to be listed at the end of the paper
+
+\begin{jelcode}
+B52; E12; %E42; F21; F32
+\end{jelcode}
+
+% Source: https://www.aeaweb.org/econlit/jelCodes.php?view=jel
+% B52   Historical • Institutional • Evolutionary • Modern Monetary Theory
+% E12   Keynes • Keynesian • Post-Keynesian • Modern Monetary Theory
+% E42   Monetary Systems • Standards • Regimes • Government and the Monetary System • Payment Systems
+% F21   International Investment • Long-Term Capital Movements
+% F32   Current Account Adjustment • Short-Term Capital Movements
+
+{\let\bfseries\mdseries \tableofcontents} \newpage
+
+\input{2025-01-AFEE} % <----------------------------- Text from dissertation
+
+%\newpage 
+\theendnotes %\newpage  % <--------------------------- End-notes Section
+\addcontentsline{toc}{section}{Endnotes}
+%\newpage %\bibliography{ref} % <------------------------------ References Section
+\addcontentsline{toc}{section}{References}
+
+```
+
+# References
